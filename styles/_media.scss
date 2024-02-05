@@ -31,12 +31,12 @@ $mobile: 767px;
 
 @mixin mobile-above {
     @media (min-width: $mobile-above) {
-        @content;
+      @content;
     }
 }
 @mixin mobile {
     @media (max-width: $mobile) {
-        @content;
+      @content;
     }
 }
 

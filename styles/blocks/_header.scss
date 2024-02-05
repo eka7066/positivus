@@ -11,5 +11,10 @@
     &__menu {
         margin-left: auto;
         font-size: 20px;
+
+        &-list {
+            display: flex;
+            align-items: center;
+        }
     }
 }
